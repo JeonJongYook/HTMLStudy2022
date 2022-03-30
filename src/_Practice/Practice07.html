@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>시멘틱 구조</title>
+    <style type="text/css">
+        body {
+            width: 440px;
+        }
+        header, nav, section, article, aside, footer{
+            display: block;
+            width: 400px;
+            margin: 4px;
+            padding: 4px;
+            background-color:#ddd;
+            text-align: center;
+        }
+        section {
+            float: left;
+            width: 280px;
+            height: 60px;
+        }
+        article {
+            width: 264px;
+            background-color: #efefef;
+        }
+        aside {
+            float: left;
+            width: 104px;
+            height: 60px;
+        }
+        footer{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align: center; background-color: #01A9DB "> 페이지 제목 
+        <nav>
+            <ul>
+                <li>페이지 1</li>
+                <li>페이지 2</li>
+            </ul>
+        </nav>
+    </header>
+    <section> section
+        <article>article</article>
+    </section>
+    <aside>광고</aside>
+    <br />
+    <footer style="text-align: right; background-color: #9E1010; color: white;">
+        인천전자마이스터고등학교_전종욱
+    </footer>
+</body>
+</html>

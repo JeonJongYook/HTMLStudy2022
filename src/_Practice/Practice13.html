@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레드향 주문하기</title>
+</head>
+<body>
+    <img src="./images/tangerines.png" alt="레드향" text="레드향" width="700" height="350"/>
+
+    <h2>상품 구성</h2>
+
+    <form>
+        <fieldset style="background-color: lightyellow;">
+            <legend>상품 선택</legend>
+            <h4 style="font-weight: bold;">주문할 상품을 선택해 주세요</h4>
+            <ul>
+                <li><input type="checkbox" /><label for="number" id="number">&nbsp;선물용 3kg&nbsp;</label><input type="number" size="10" min="1" max="5">개 <sub>(최대 5개)</sub></li>
+                <li><input type="checkbox" checked/><label for="number" id="number">&nbsp;선물용 5kg&nbsp;</label><input type="number" size="10" min="1" max="3" value="1">개 <sub>(최대 3개)</sub></li>
+                <li><input type="checkbox" /><label for="number" id="number">&nbsp;가정용 3kg&nbsp;</label><input type="number" size="10" min="1" max="5">개 <sub>(최대 5개)</sub></li>
+                <li><input type="checkbox" /><label for="number" id="number">&nbsp;가정용 5kg&nbsp;</label><input type="number" size="10" min="1" max="3">개 <sub>(최대 3개)</sub></li>
+            </ul>
+            <h4 style="font-weight: bold;">포장 선택</h4>
+            <ul>
+                <li><input type="radio" /><label for="radio" id="radio">&nbsp;선물 포장&nbsp;</label></li>
+                <li><input type="radio" /><label for="radio" id="radio">&nbsp;선물 포장 안 함&nbsp;</label></li>
+            </ul>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset style="background-color: lightyellow;">
+            <legend>배송 정보</legend>
+            <ul>
+                <li><label for="text">&nbsp;이름&nbsp;</label><input type="text" id="text"></li>
+                <li><label for="address" >&nbsp;배송 주소&nbsp;</label><input type="address" id="address"></li>
+                <li><label for="email" >&nbsp;이메일&nbsp;</label><input type="email" id="email"></li>
+                <li><label for="tel" >&nbsp;연락처&nbsp;</label><input type="tel" id="tel"></li>
+                <li><label for="date" >&nbsp;배송 지정&nbsp;</label><input type="date" id="date" ><sub>(주문일로부터 최소 3일 이후)</sub></li>
+                <li><label for="text" >&nbsp;메모&nbsp;</label><textarea rows="5" cols="50"></textarea></li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <p></p>
+    <input type="submit" value="주문하기" ></input></a>
+    <input type="reset" value="취소하기" ></input></a>
+    <a href="./Practice10.html" target="_blank"><input type="submit" value="홈화면" ></input></a>
+</body>
+</html>

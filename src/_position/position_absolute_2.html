@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 여백과 위치 지정 (Absolute_2) </title>
+    <style>
+        #first{
+            border: 1px solid red;
+            position: relative;
+        }
+        #second{
+            border: 1px solid blue;
+            position: absolute;
+            top: 10px;
+            left: 0px;
+        }
+        #third{
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div id="first"> first <div id="second"> second </div> </div>   
+    <div id="third"> third </div>    
+</body>
+</html>

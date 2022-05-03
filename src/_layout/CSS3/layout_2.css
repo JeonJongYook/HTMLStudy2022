@@ -1,0 +1,44 @@
+@charset "utf-8";
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: yellow;
+}
+/* header: 전체 영역 크기, 배경색 : 노랑 */
+footer {
+    width: 100%;
+    background-color:yellow;
+}
+section {
+    width: 100%;
+    box-orient: horizontal;
+    display: block;
+    display: -moz-box;
+    display: -webkit-box;
+}
+/* 너비 : 전체 영역 크기, 박스 구조(벤더 프리픽스 표현)*/
+#box-1 {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    min-height: 100px;
+    background-color:aqua;
+}
+/* 유연한 박스 구조, 최소 높이: 100픽셀, 배경색 아쿠아*/
+#box-2 {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    min-height: 100px;
+    background-color:#ccc;
+}
+/* 유연한 박스 구조, 최소 높이: 100픽셀, 배경색 회색*/
+#box-3 {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    min-height: 100px;
+    background-color:aqua;
+}
+/* 유연한 박스 구조, 최소 높이: 100픽셀, 배경색 아쿠아*/

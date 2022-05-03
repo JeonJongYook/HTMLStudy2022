@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.container {
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #444;
+}
+
+h1 {
+    text-align: center;
+    line-height: 70px;
+}

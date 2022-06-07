@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice25_1</title>
+</head>
+<style>
+    img { 
+        width: 100px;
+    }
+    #container {
+        width: 1000px;
+        margin: 20px auto;
+    }
+    .origin {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 40px;
+    } 
+    #rotate1:hover {
+        transform: rotate(40deg);
+    }
+    #rotate2:hover {
+        transform: rotate(-40deg);
+    }
+    #rotate3:hover{
+        transform: translate(20px, 20px);
+    }
+    #rotate4:hover{
+        transform: scale(2, 2);
+    }
+    #rotate5:hover{
+        transform: skew(-25deg, -15deg);
+    }
+</style>
+<body>
+    <div id="container">
+        <div class="origin" id="rotate1">
+            <img src="./images/bear.png">
+            rotate1
+        </div>
+        <div class="origin" id="rotate2">
+            <img src="./images/bear.png">
+            rotate2
+        </div>
+        <div class="origin" id="rotate3">
+            <img src="./images/bear.png">
+            rotate3
+        </div>
+        <div class="origin" id="rotate4">
+            <img src="./images/bear.png">
+            rotate4
+        </div>
+        <div class="origin" id="rotate5">
+            <img src="./images/bear.png">
+            rotate5
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 이동, 확대, 비틀기 -->

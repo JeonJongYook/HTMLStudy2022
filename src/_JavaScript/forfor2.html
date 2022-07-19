@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forfor1</title>
+    <title>forfor2</title>
     <script>
-        for(var i = 2; i <= 9; i++) {
-            document.write("<h1>"+ i +"단</h1>");
-            for(var k = 1; k <= 9; k++) {
-                document.write(i + "x" + k + "=" + i*k,"<br>");
+        var line, i, j;
+        line = prompt("줄의 수를 입력하세요.");
+        for (i=0; i<=line; i++){
+            for (j=0; j<=i; j++){
+                document.write('*&nbsp;')
             }
+            document.write('<br>')
+            document.write('<br>')
         }
     </script>
 </head>
